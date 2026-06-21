@@ -1,0 +1,122 @@
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# ------------------------------
+# Virtual environments
+# ------------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# ------------------------------
+# Model weights & checkpoints
+# ------------------------------
+weights/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pb
+*.tflite
+
+# ------------------------------
+# Datasets & features
+# ------------------------------
+datasets/
+*.tar
+*.zip
+*.gz
+*.npz
+*.npy
+features/
+
+# ------------------------------
+# Logs & output
+# ------------------------------
+*.log
+wandb/
+tensorboard/
+runs/
+output/
+outputs/
+
+# ------------------------------
+# Jupyter Notebook
+# ------------------------------
+.ipynb_checkpoints/
+
+# ------------------------------
+# IDE / editor
+# ------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------------
+# OS
+# ------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ------------------------------
+# Test / coverage
+# ------------------------------
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+pytest_cache/
+.pytest_cache/
+htmlcov/
+.tox/
+*.tox/
+.coverage.*
+*.log
+
+# ------------------------------
+# Documentation
+# ------------------------------
+docs/_build/
+*.pdf
+
+# ------------------------------
+# Docker
+# ------------------------------
+docker-compose.override.yml
+*.dockerfile
+
+# ------------------------------
+# Misc
+# ------------------------------
+*.bak
+*.tmp
+*.swp
+*.old
+*.orig
+
+# ------------------------------
+# Other
+# ------------------------------
+asserts/
+aux/
+report/
+docs/
+doc/
+segmentation_results/

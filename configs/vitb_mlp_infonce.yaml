@@ -1,0 +1,12 @@
+# ViT-B InfoNCE 投影层模型和训练超参数配置
+model:
+  act: tanh # 可选值：None、tanh、relu 或 sigmoid
+  hidden_layer: True
+  dino_embed_dim: 768
+
+train:
+  lr: 0.0001
+  ltype: 'infonce'
+  num_epochs: 100
+  batch_size: 128
+  save_best_model: False
