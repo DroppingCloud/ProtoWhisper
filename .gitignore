@@ -94,7 +94,6 @@ htmlcov/
 # Documentation
 # ------------------------------
 docs/_build/
-*.pdf
 
 # ------------------------------
 # Docker
@@ -116,7 +115,7 @@ docker-compose.override.yml
 # ------------------------------
 asserts/
 aux/
-report/
+# report/
 docs/
 doc/
 segmentation_results/
